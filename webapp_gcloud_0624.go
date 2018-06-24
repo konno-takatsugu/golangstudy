@@ -74,13 +74,13 @@ func (Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
   switch gmapStruct {
   case gmapPattern1:
-    gmapResult = "Both are none."
+    gmapResult = "業務を改革・改善するには、業務の全体像が社内で共有されていることが必須です。アメリスとともに、まずは「業務マップ」を整理しましょう。"
   case gmapPattern2:
-    gmapResult = "Above is on."
+    gmapResult = "業務の全体像から、改善すべき「キー業務」を絞り込みましょう。まずはその業務について、アメリスとともに、業務プロセスの可視化をしましょう。"
   case gmapPattern3:
-    gmapResult = "Bottom is on."
+    gmapResult = "重要業務のプロセスを改善するために、それに関連する業務の可視化を、アメリスとともに始めましょう。"
   case gmapPattern4:
-    gmapResult = "Both are on."
+    gmapResult = "業務の全体像のうち、キーとなる業務について、アメリスとともに業務の「あるべき姿」を構築しましょう。"
   }
 
   //会議体に関する処理
