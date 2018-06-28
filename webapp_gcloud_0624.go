@@ -140,21 +140,21 @@ func (Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
   switch mtgStruct {
   case mtgPattern1:
-    mtgResult = "Both are none."
+    mtgResult = "定例会議を経営のリズムの要として活用することで、組織は良くなります。 まずはチーム単位での週次の会議から始めましょう。 "
   case mtgPattern2:
-    mtgResult = "Above is on."
+    mtgResult = "定例会議を経営のリズムの要として活用することで、組織は良くなります。 週次会議の上位の定例会議として、月次の定例会議を設定しましょう。 "
   case mtgPattern3:
-    mtgResult = "Bottom is on."
+    mtgResult = "会議を有効活用するために「運営ルール」と「開催プロセス」を整備しましょう。 アメリスにはそれを実現・浸透させるノウハウがあります。 "
   case mtgPattern4:
-    mtgResult = "Both are on."
+    mtgResult = "一か月に1度程度、理念・ビジョンを再確認し、これから1か月の経営方針を伝える会議を行いましょう。 "
   case mtgPattern5:
-    mtgResult = "Both are none."
+    mtgResult = "定例会議をうまく運営されているようですね。 定例会議で集約される経営情報を、多方面の業務に活用できていますか。 "
   case mtgPattern6:
-    mtgResult = "Above is on."
+    mtgResult = "定例会議を経営のリズムの要として活用することで、組織は良くなります。 チーム単位の週次会議は全ての業務の基点になりますので、そこから始めましょう。 "
   case mtgPattern7:
-    mtgResult = "Bottom is on."
+    mtgResult = "定例会議は現場レベルでも実施することで、組織全体がまとまります。 チーム単位の週次会議は全ての業務の基点になりますので、そこから始めましょう。 "
   case mtgPattern8:
-    mtgResult = "Both are on."
+    mtgResult = "定例会議は現場レベルでも実施することで、組織全体がまとまります。 チーム単位の週次会議は全ての業務の基点になりますので、そこから始めましょう。 "
 }
 
   //営業に関する処理
@@ -186,13 +186,13 @@ func (Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
   switch slsStruct {
   case slsPattern1:
-    slsResult = "Both are none."
+    slsResult = "営業マンは忙しく、社内への進捗報告は後回しにされがちですが、組織で戦っていく上では営業進捗の社内共有は必須です。 定例会議等を仕組みとして取り入れつつ改革していきましょう。 "
   case slsPattern2:
-    slsResult = "Above is on."
+    slsResult = "せっかく営業から共有される情報を、組織の資産として集約しましょう。 集約したうえで、必要な人がいつでもそこにアクセスできることが必要です。 "
   case slsPattern3:
-    slsResult = "Bottom is on."
+    slsResult = "営業マンは忙しく、社内への進捗報告は後回しにされがちですが、組織で戦っていく上では営業進捗の社内共有は必須です。 営業マンに過度な負担をかけずに、仕組みを作り上げていきましょう。 "
   case slsPattern4:
-    slsResult = "Both are on."
+    slsResult = "営業マンからの情報の収集、集約ができているのは素晴らしいことです。 営業の成果を月単位でレビューし、翌月の改善に活かしていきましょう。 "
   }
 
   //情報管理に関する処理
@@ -252,21 +252,21 @@ func (Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
   switch ifmStruct {
   case ifmPattern1:
-    ifmResult = "Both are none."
+    ifmResult = "文書の管理体系を定め、定期的な棚卸で規律を維持しましょう。 アメリスには、それを徹底するノウハウがあります。 "
   case ifmPattern2:
-    ifmResult = "Above is on."
+    ifmResult = "ファイルの命名ルールを統一することは、必要な情報の検索性を上げるために必須です。「コード」の活用も含めて、簡明な命名ルールを作っていきましょう。 "
   case ifmPattern3:
-    ifmResult = "Bottom is on."
+    ifmResult = "フォルダ管理体系、命名ルールが定まったら、次は資料の棚卸サイクルを作りましょう。このサイクルによって、ルール運用が徹底されます。 "
   case ifmPattern4:
-    ifmResult = "Both are on."
+    ifmResult = "ファイルの命名ルールを統一することは、必要な情報の検索性を上げるために必須です。「コード」の活用も含めて、簡明な命名ルールを作っていきましょう。 "
   case ifmPattern5:
-    ifmResult = "Both are none."
+    ifmResult = "情報管理の体制がしっかりと整っているとお見受けしました。整理された情報を各業務で活用していけるよう、各業務の「業務プロセス」を定めていきましょう。 "
   case ifmPattern6:
-    ifmResult = "Above is on."
+    ifmResult = "社内にある紙ファイル、電子ファイルを管理しきれているでしょうか。簡明なフォルダ管理体系を導入して、資料へのアクセス性を高めましょう。 "
   case ifmPattern7:
-    ifmResult = "Bottom is on."
+    ifmResult = "社内にある紙ファイル、電子ファイルを管理しきれているでしょうか。簡明なフォルダ管理体系を導入して、資料へのアクセス性を高めましょう。 "
   case ifmPattern8:
-    ifmResult = "Both are on."
+    ifmResult = "社内にある紙ファイル、電子ファイルを管理しきれているでしょうか。簡明なフォルダ管理体系を導入して、資料へのアクセス性を高めましょう。 "
 }
 
   //決定に関する処理
@@ -298,13 +298,13 @@ func (Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
   switch dcmStruct {
   case dcmPattern1:
-    dcmResult = "Both are none."
+    dcmResult = "社内意思決定のルールを個別業務レベルで設定し、その履歴を残しておく仕組みを取り入れ、フェアな職場を作りましょう。アメリスなら、簡単にそれができるノウハウをご提供できます。 "
   case dcmPattern2:
-    dcmResult = "Above is on."
+    dcmResult = "社内意思決定ルールは具体的な業務シーンに沿ったものでしょうか。意思決定の履歴を記録していくことで、組織の意思決定の積み上げができます。 "
   case dcmPattern3:
-    dcmResult = "Bottom is on."
+    dcmResult = "社内意思決定のルールを個別業務レベルで設定し、その履歴を残しておく仕組みを取り入れ、フェアな職場を作りましょう。アメリスなら、簡単にそれができるノウハウをご提供できます。 "
   case dcmPattern4:
-    dcmResult = "Both are on."
+    dcmResult = "社内意思決定ルールは具体的な業務シーンに沿ったものでしょうか。重要な意思決定のルールは、アメリスのノウハウが詰まった「業務プロセス文書」の様式を用いて社内の誰もが閲覧できるようにしておきましょう。 "
   }
 
   //契約管理に関する処理
@@ -336,13 +336,13 @@ func (Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
   switch ctmStruct {
   case ctmPattern1:
-    ctmResult = "Both are none."
+    ctmResult = "契約書の管理は経営管理の基本といえるでしょう。契約書をきちんと管理したうえで契約条項の着実な履行ができる体制を作りましょう。 "
   case ctmPattern2:
-    ctmResult = "Above is on."
+    ctmResult = "締結した契約のリストを作成し、必要な人がすぐに閲覧できる体制、契約条項の着実な履行ができる体制を整備しましょう。 "
   case ctmPattern3:
-    ctmResult = "Bottom is on."
+    ctmResult = "契約書の管理は経営管理の基本といえるでしょう。契約書をきちんと管理したうえで契約条項の着実な履行ができる体制を作りましょう。 "
   case ctmPattern4:
-    ctmResult = "Both are on."
+    ctmResult = "契約書の管理体制が整っているようです。契約交渉から契約書の締結、契約書の保管まで、契約にまつわる一連の業務プロセスは整備されていますか。 "
   }
 
   //社判（社印）管理に関する処理
@@ -374,13 +374,13 @@ func (Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
   switch stpStruct {
   case stpPattern1:
-    stpResult = "Both are none."
+    stpResult = "社印の管理は不正利用の防止上必須ですが、厳重にしすぎると業務効率が落ちてしまいます。アメリスにノウハウがあります。お問い合わせください。 "
   case stpPattern2:
-    stpResult = "Above is on."
+    stpResult = "これまで社印を押捺した履歴を残しておくことで、外部とのやり取りの記録をすぐに閲覧することができます。 "
   case stpPattern3:
-    stpResult = "Bottom is on."
+    stpResult = "社印の管理は不正利用の防止上必須ですが、厳重にしすぎると業務効率が落ちてしまいます。 アメリスにノウハウがあります。お問い合わせください。 "
   case stpPattern4:
-    stpResult = "Both are on."
+    stpResult = "社印の管理体制が整っているようです。社印を押す前後の業務のプロセスは整備されていますか。 "
   }
 
   //請求・支払に関する処理
@@ -412,13 +412,13 @@ func (Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
   switch actStruct {
   case actPattern1:
-    actResult = "Both are none."
+    actResult = "顧客との請求・支払のやり取りは、経営管理上最も注意を払う必要があります。業務のルールおよびプロセスを整備して、安定した業務の進め方を整備しましょう。 "
   case actPattern2:
-    actResult = "Above is on."
+    actResult = "請求・支払情報を集約して管理することで、請求漏れ、支払漏れを防ぎ、予測可能性が生まれます。請求・支払案件に関わる全ての社員が情報集約に参加できる体制を作りましょう。 "
   case actPattern3:
-    actResult = "Bottom is on."
+    actResult = "顧客との請求・支払のやり取りは、経営管理上最も注意を払う必要があります。業務のルールおよびプロセスを整備して、安定した業務の進め方を整備しましょう。 "
   case actPattern4:
-    actResult = "Both are on."
+    actResult = "請求・支払管理の体制は整っているようです。新しく組織に参加する社員でもすぐに請求・支払管理ができるよう、業務プロセスを整備しましょう。 "
   }
 
   //浸透に関する処理
@@ -439,9 +439,9 @@ func (Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
   switch shiStruct {
   case shiPattern1:
-    shiResult = "OFF."
+    shiResult = "業務のルール、プロセスを整備するだけでは不十分です。ツールを整え、社員がルール、プロセスに従って行動できる組織に変えていきましょう。 "
   case shiPattern2:
-    shiResult = "ON."
+    shiResult = "業務プロセスの浸透がなされていることは素晴らしいことです。定められた業務プロセスに沿って行動すれば、自然と業務の改善が行われるように、アメリスとともに仕組みを作り上げていきませんか。 "
   }
 
   //ITシステムに関する処理
@@ -473,13 +473,13 @@ func (Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
   switch itsStruct {
   case itsPattern1:
-    itsResult = "Both are none."
+    itsResult = "ITシステムは業務プロセスに沿って構築されることで初めて役に立つものです。まずは既存ITシステムの社員の利用状況をモニタリングしましょう。 "
   case itsPattern2:
-    itsResult = "Above is on."
+    itsResult = "ITシステムは業務プロセスに沿って構築されることで初めて役に立つものです。利用状況を元に、ITシステムの改善課題を洗い出しましょう。 "
   case itsPattern3:
-    itsResult = "Bottom is on."
+    itsResult = "ITシステムは業務プロセスに沿って構築されることで初めて役に立つものです。まずは既存ITシステムの社員の利用状況をモニタリングしましょう。 "
   case itsPattern4:
-    itsResult = "Both are on."
+    itsResult = "ITシステムは業務プロセスに沿って構築されることで初めて役に立つものです。ITシステムと業務の進め方の連携を常に最適化し続けていきましょう。"
   }
 
   //HTMLの文字列
